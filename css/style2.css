@@ -1,0 +1,23 @@
+body{
+    
+}
+.html{
+    box-sizing: border-box;
+
+}
+::before,::after{
+    box-sizing: inherit;
+}
+.wrapper{
+    max-width: 1062px;
+    margin: 0 auto;
+    /* padding: 0; */
+    border: 3px solid red;
+}
+.header{
+    padding-top: 56px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
